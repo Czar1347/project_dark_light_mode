@@ -7,8 +7,6 @@ function toggleDarkMode() {
 function loadTheme() {
   const darkMode = localStorage.getItem("dark");
 
-  console.log(darkMode);
-
   if (darkMode) {
     toggleDarkMode();
   }
